@@ -1,0 +1,17 @@
+package bodypart;
+
+import java.awt.List;
+import java.util.ArrayList;
+
+public class BodyPartResponse {
+	private List<BodyPart> bodyPart = new ArrayList<BodyPart>();
+
+	public List<BodyPart> getBodyPart() {
+		return bodyPart;
+	}
+
+	public void setBodyPart(List<BodyPart> bodyPart) {
+		this.bodyPart = bodyPart;
+	}
+	
+}

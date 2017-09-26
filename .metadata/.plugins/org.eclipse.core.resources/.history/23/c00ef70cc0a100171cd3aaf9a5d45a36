@@ -1,0 +1,21 @@
+package bodypartitems;
+
+public class BodyPartItemRequest {
+	private String BodyPart;
+
+	public String getBodyPart() {
+		return BodyPart;
+	}
+
+	public void setBodyPart(String bodyPart) {
+		BodyPart = bodyPart;
+	}
+	@Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("BodyPartItemRequest{");
+        sb.append("BodyPart=").append(BodyPart);
+        sb.append('}');
+        return sb.toString();
+    }
+	
+}

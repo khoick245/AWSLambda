@@ -1,0 +1,5 @@
+package bodypartitems;
+
+public class BodyPartItemRequest {
+	private String BodyPart;
+}

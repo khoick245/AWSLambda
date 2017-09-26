@@ -1,0 +1,94 @@
+package bodypart;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import com.amazonaws.auth.EnvironmentVariableCredentialsProvider;
+import com.amazonaws.regions.Regions;
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder;
+import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
+import com.amazonaws.services.dynamodbv2.document.DynamoDB;
+import com.amazonaws.services.dynamodbv2.document.Item;
+import com.amazonaws.services.dynamodbv2.document.Table;
+import com.amazonaws.services.dynamodbv2.model.AttributeValue;
+import com.amazonaws.services.dynamodbv2.model.ScanRequest;
+import com.amazonaws.services.dynamodbv2.model.ScanResult;
+import com.amazonaws.services.lambda.runtime.Context;
+import com.amazonaws.services.lambda.runtime.RequestHandler;
+
+public class LambdaFunctionHandler implements RequestHandler<Void, BodyPartResponse> {
+
+	@Override
+	public BodyPartResponse handleRequest(Void a, final Context context) {
+		
+
+//		final AmazonDynamoDB client = AmazonDynamoDBClientBuilder.standard().build();
+//		
+//		// get all rows by scanning
+//		BodyPartResponse bodyPartResponse = new BodyPartResponse();
+//		ScanResult result = null;
+//
+//		do {
+//			ScanRequest req = new ScanRequest();
+//			req.setTableName("BodyPart");
+//
+//			if (result != null) {
+//				req.setExclusiveStartKey(result.getLastEvaluatedKey());
+//			}
+//
+//			result = client.scan(req);
+//
+//			List<Map<String, AttributeValue>> rows = result.getItems();
+//
+//			for (Map<String, AttributeValue> map : rows) {
+//				try {
+//					BodyPart bodyPart = new BodyPart();
+//					AttributeValue v = map.get("PartName");
+//					bodyPart.setPartName(v.getS());
+//					AttributeValue v1 = map.get("NoOfExercises");
+//					bodyPart.setNoOfExercise(Integer.parseInt(v1.getS()));
+//					bodyPartResponse.getBodyPart().add(bodyPart);
+//				} catch (NumberFormatException e) {
+//					System.out.println(e.getMessage());
+//				}
+//			}
+//		} while (result.getLastEvaluatedKey() != null);
+//
+//		return bodyPartResponse;
+		
+//			ScanRequest req = new ScanRequest();
+//			req.setTableName("BodyPart");
+//
+//
+//			result = client.scan(req);
+//
+//			List<Map<String, AttributeValue>> rows = result.getItems();
+//
+//			for (Map<String, AttributeValue> map : rows) {
+//				try {
+//					BodyPart bodyPart = new BodyPart();
+//					AttributeValue v = map.get("PartName");
+//					bodyPart.setPartName(v.getS());
+//					AttributeValue v1 = map.get("NoOfExercises");
+//					bodyPart.setNoOfExercise(Integer.parseInt(v1.getS()));
+//					bodyPartResponse.getBodyPart().add(bodyPart);
+//				} catch (NumberFormatException e) {
+//					System.out.println(e.getMessage());
+//				}
+//			}
+			
+
+		//return bodyPartResponse;
+		
+		
+//		final AmazonDynamoDBClient DBClient = new AmazonDynamoDBClient(new EnvironmentVariableCredentialsProvider());
+//		DBClient.withRegion(Regions.US_WEST_2);
+//		final DynamoDB dynamoDB = new DynamoDB(DBClient);
+//		final Table table = dynamoDB.getTable("BodyPart");
+		
+	}
+
+}

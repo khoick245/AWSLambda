@@ -1,0 +1,21 @@
+package bodypart;
+
+public class BodyPartRequest {
+	private String Type;
+
+	public String getType() {
+		return Type;
+	}
+
+	public void setType(String type) {
+		Type = type;
+	}
+	
+	@Override
+    public String toString() {
+        final StringBuilder sb = new StringBuilder("BodyPartRequest{");
+        sb.append("Type='").append(Type).append('\'');
+        sb.append('}');
+        return sb.toString();
+    }
+}

@@ -1,0 +1,10 @@
+package bodypartitems;
+
+public class BodyPartItem {
+	private String BodyPart;
+	private String Equipment;
+	private String ExerciseName;
+	private String ImageUrl;
+	private String Type;
+	private String Video;
+}

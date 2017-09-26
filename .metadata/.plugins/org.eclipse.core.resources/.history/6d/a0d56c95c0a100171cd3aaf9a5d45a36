@@ -1,0 +1,63 @@
+package bodypartitems;
+
+public class BodyPartItem {
+//	private int Id;
+//	public int getId() {
+//		return Id;
+//	}
+//	public void setId(int id) {
+//		Id = id;
+//	}
+	private String BodyPart;
+	private String Equipment;
+	private String ExerciseName;
+	private String ImageUrl;
+	private String Type;
+	private String Video;
+	public String getBodyPart() {
+		return BodyPart;
+	}
+	public void setBodyPart(String bodyPart) {
+		BodyPart = bodyPart;
+	}
+	public String getEquipment() {
+		return Equipment;
+	}
+	public void setEquipment(String equipment) {
+		Equipment = equipment;
+	}
+	public String getExerciseName() {
+		return ExerciseName;
+	}
+	public void setExerciseName(String exerciseName) {
+		ExerciseName = exerciseName;
+	}
+	public String getImageUrl() {
+		return ImageUrl;
+	}
+	public void setImageUrl(String imageUrl) {
+		ImageUrl = imageUrl;
+	}
+	public String getType() {
+		return Type;
+	}
+	public void setType(String type) {
+		Type = type;
+	}
+	public String getVideo() {
+		return Video;
+	}
+	public void setVideo(String video) {
+		Video = video;
+	}
+	
+//	@Override
+//    public String toString() {
+//        final StringBuilder sb = new StringBuilder("BodyPartItem{");
+//        sb.append("lat=").append(lat);
+//        sb.append(", lng=").append(lng);
+//        sb.append(", deviceId='").append(deviceId).append('\'');
+//        sb.append('}');
+//        return sb.toString();
+//    }
+}

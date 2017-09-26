@@ -1,0 +1,41 @@
+package bodypartitems;
+
+import com.amazonaws.auth.EnvironmentVariableCredentialsProvider;
+import com.amazonaws.regions.Regions;
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
+import com.amazonaws.services.dynamodbv2.document.DynamoDB;
+import com.amazonaws.services.dynamodbv2.document.Index;
+import com.amazonaws.services.dynamodbv2.document.Item;
+import com.amazonaws.services.dynamodbv2.document.ItemCollection;
+import com.amazonaws.services.dynamodbv2.document.QueryOutcome;
+import com.amazonaws.services.dynamodbv2.document.Table;
+import com.amazonaws.services.lambda.runtime.Context;
+import com.amazonaws.services.lambda.runtime.RequestHandler;
+
+import bodypart.BodyPart;
+import bodypart.BodyPartResponse;
+
+public class LambdaFunctionHandler implements RequestHandler<Object, String> {
+
+    @Override
+    public String handleRequest(Object input, Context context) {
+    	final AmazonDynamoDBClient client = new AmazonDynamoDBClient(new EnvironmentVariableCredentialsProvider());
+		client.withRegion(Regions.US_WEST_2);
+		final DynamoDB dynamoDB = new DynamoDB(client);
+		final Table table = dynamoDB.getTable("BodyPartItems");
+		final Index index = table.getIndex("BodyPart-index");
+		
+		final ItemCollection<QueryOutcome> items = index.query("Type", "Body");
+		final BodyPartItemResponse bodyPartResponse = new BodyPartItemResponse();
+		
+		for(final Item item : items) {
+			final BodyPartItem bodyPart = new BodyPartItem();
+			bodyPart.setPartName(item.getString("PartName"));
+			bodyPart.setNoOfExercises(item.getInt("NoOfExercises"));
+			bodyPart.setType(item.getString("Type"));
+			bodyPartResponse.getBodyPart().add(bodyPart);
+		}
+		return bodyPartResponse;
+    }
+
+}

@@ -1,0 +1,18 @@
+content_assist_autoactivation_triggers_java=.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
+content_assist_disabled_computers=org.eclipse.jdt.ui.textProposalCategory\u0000org.eclipse.recommenders.calls.rcp.proposalCategory.templates\u0000org.eclipse.mylyn.java.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaAllProposalCategory\u0000org.eclipse.jdt.ui.javaTypeProposalCategory\u0000org.eclipse.jdt.ui.javaNoTypeProposalCategory\u0000org.eclipse.recommenders.chain.rcp.proposalCategory.chain\u0000
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.CharSequence"><rhs name\="java.lang.StringBuilder"/><rhs name\="java.lang.String"/></lhs><lhs name\="java.lang.AbstractStringBuilder"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="java.lang.Appendable"><rhs name\="java.lang.StringBuilder"/></lhs><lhs name\="com.amazonaws.services.dynamodbv2.AmazonDynamoDB"><rhs name\="com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient"/></lhs><lhs name\="com.amazonaws.AmazonWebServiceClient"><rhs name\="com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient"/></lhs><lhs name\="com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient"><rhs name\="com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient"/></lhs><lhs name\="com.amazonaws.services.dynamodbv2.document.api.ListTablesApi"><rhs name\="com.amazonaws.services.dynamodbv2.document.DynamoDB"/></lhs><lhs name\="com.amazonaws.services.dynamodbv2.document.api.BatchGetItemApi"><rhs name\="com.amazonaws.services.dynamodbv2.document.DynamoDB"/></lhs><lhs name\="com.amazonaws.services.dynamodbv2.document.api.BatchWriteItemApi"><rhs name\="com.amazonaws.services.dynamodbv2.document.DynamoDB"/></lhs><lhs name\="com.amazonaws.services.dynamodbv2.document.DynamoDB"><rhs name\="com.amazonaws.services.dynamodbv2.document.DynamoDB"/></lhs><lhs name\="bodypart.BodyPart"><rhs name\="bodypart.BodyPart"/></lhs><lhs name\="com.amazonaws.regions.Region"><rhs name\="com.amazonaws.regions.Region"/></lhs><lhs name\="bodypart.BodyPartResponse"><rhs name\="bodypart.BodyPartResponse"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.ArrayList"/></lhs><lhs name\="bodypartitems.BodyPartItemResponse"><rhs name\="bodypartitems.BodyPartItemResponse"/></lhs><lhs name\="bodypartitems.BodyPartItem"><rhs name\="bodypartitems.BodyPartItem"/></lhs></history>
+content_assist_number_of_computers=24
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=13
+org.eclipse.jdt.ui.text.code_templates_migrated=true
+org.eclipse.jdt.ui.text.custom_code_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.custom_templates=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><templates/>
+org.eclipse.jdt.ui.text.templates_migrated=true
+sourceHoverBackgroundColor=236,235,236
+spelling_locale_initialized=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

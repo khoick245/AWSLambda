@@ -1,0 +1,49 @@
+package bodypart;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import com.amazonaws.auth.EnvironmentVariableCredentialsProvider;
+import com.amazonaws.regions.Region;
+import com.amazonaws.regions.Regions;
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDB;
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient;
+import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder;
+import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable;
+import com.amazonaws.services.dynamodbv2.document.DynamoDB;
+import com.amazonaws.services.dynamodbv2.document.Index;
+import com.amazonaws.services.dynamodbv2.document.Item;
+import com.amazonaws.services.dynamodbv2.document.ItemCollection;
+import com.amazonaws.services.dynamodbv2.document.QueryOutcome;
+import com.amazonaws.services.dynamodbv2.document.Table;
+import com.amazonaws.services.dynamodbv2.model.AttributeValue;
+import com.amazonaws.services.dynamodbv2.model.ScanRequest;
+import com.amazonaws.services.dynamodbv2.model.ScanResult;
+import com.amazonaws.services.lambda.runtime.Context;
+import com.amazonaws.services.lambda.runtime.RequestHandler;
+
+public class LambdaFunctionHandler implements RequestHandler<BodyPartRequest, BodyPartResponse> {
+
+	@Override
+	public BodyPartResponse handleRequest(final BodyPartRequest input, final Context context) {
+		
+		final AmazonDynamoDBClient client = new AmazonDynamoDBClient(new EnvironmentVariableCredentialsProvider());
+		client.withRegion(Regions.US_WEST_2);
+		final DynamoDB dynamoDB = new DynamoDB(client);
+		final Table table = dynamoDB.getTable("BodyPart");
+		final Index index = table.getIndex("Type-index");
+		
+		final ItemCollection<QueryOutcome> items = index.query("Type", input.getType());
+		final BodyPartResponse bodyPartResponse = new BodyPartResponse();
+		
+		for(final Item item : items) {
+			final BodyPart bodyPart = new BodyPart();
+			bodyPart.setPartName(item.getString("PartName"));
+			bodyPart.setNoOfExercises(item.getInt("NoOfExercises"));
+			bodyPartResponse.getBodyPart().add(bodyPart);
+		}
+		return bodyPartResponse;
+	}
+
+}

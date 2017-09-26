@@ -1,0 +1,49 @@
+package bodypart;
+
+public class BodyPart {
+	private String PartName;
+	private String NoOfExercises;
+	private String Type;
+
+	
+	public String getPartName() {
+		return PartName;
+	}
+
+
+	public void setPartName(String partName) {
+		PartName = partName;
+	}
+
+
+	public String getNoOfExercises() {
+		return NoOfExercises;
+	}
+
+
+	public void setNoOfExercises(String noOfExercises) {
+		NoOfExercises = noOfExercises;
+	}
+
+
+	public String getType() {
+		return Type;
+	}
+
+
+	public void setType(String type) {
+		Type = type;
+	}
+
+
+	@Override
+	public String toString() {
+		final StringBuilder sb = new StringBuilder("BodyPart{"); 
+		sb.append("PartName=").append(PartName);
+		sb.append(", NoOfExercises=").append(NoOfExercises);
+		sb.append(", Type=").append(Type).append('\'');
+		sb.append('}');
+		return sb.toString();
+	}
+	
+}

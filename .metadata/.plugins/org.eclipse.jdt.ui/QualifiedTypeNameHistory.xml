@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+<fullyQualifiedTypeName name="java.awt.List"/>
+<fullyQualifiedTypeName name="com.amazonaws.auth.EnvironmentVariableCredentialsProvider"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.AmazonDynamoDBClient"/>
+<fullyQualifiedTypeName name="com.amazonaws.regions.Regions"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.datamodeling.DynamoDB"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.DynamoDB"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.Table"/>
+<fullyQualifiedTypeName name="com.amazonaws.regions.Region"/>
+<fullyQualifiedTypeName name="com.amazonaws.auth.BasicAWSCredentials"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.s3.internal.Constants"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.Index"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.ItemCollection"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.QueryOutcome"/>
+<fullyQualifiedTypeName name="bodypart.BodyPartRequest"/>
+<fullyQualifiedTypeName name="bodypart.BodyPartResponse"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.Item"/>
+<fullyQualifiedTypeName name="bodypart.BodyPart"/>
+<fullyQualifiedTypeName name="java.lang.Void"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="bodypartitems.BodyPartItemRequest"/>
+<fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.AmazonDynamoDB"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.model.ScanRequest"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.model.ScanResult"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.model.AttributeValue"/>
+<fullyQualifiedTypeName name="bodypartitems.BodyPartItemResponse"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.spec.QuerySpec"/>
+<fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.utils.ValueMap"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.util.Iterator"/>
+<fullyQualifiedTypeName name="bodypartitems.BodyPartItem"/>
+</qualifiedTypeNameHistroy>
