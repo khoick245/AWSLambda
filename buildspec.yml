@@ -6,3 +6,4 @@ phases:
   post_build:
     commands:
 artifacts:
+  discard-paths: yes
