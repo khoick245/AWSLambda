@@ -22,7 +22,6 @@
 <fullyQualifiedTypeName name="java.lang.Void"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.util.ArrayList"/>
-<fullyQualifiedTypeName name="bodypartitems.BodyPartItemRequest"/>
 <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
 <fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.AmazonDynamoDB"/>
 <fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder"/>
@@ -34,7 +33,10 @@
 <fullyQualifiedTypeName name="java.lang.Integer"/>
 <fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.spec.QuerySpec"/>
 <fullyQualifiedTypeName name="com.amazonaws.services.dynamodbv2.document.utils.ValueMap"/>
-<fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="java.util.Iterator"/>
 <fullyQualifiedTypeName name="bodypartitems.BodyPartItem"/>
+<fullyQualifiedTypeName name="bodypartitems.BodyPartItemRequest"/>
+<fullyQualifiedTypeName name="automation.Message"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="automation.Return"/>
 </qualifiedTypeNameHistroy>

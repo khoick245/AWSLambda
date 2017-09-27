@@ -1,1 +1,1 @@
-[[{"location":"/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home","type":"JRE","hints":{}},"jre:jre:1.8.0"],[{"location":"/Users/khoinguyen/.m2/repository/com/amazonaws/aws-java-sdk-dynamodb/1.11.124/aws-java-sdk-dynamodb-1.11.124.jar","type":"JAR","hints":{}},"com.amazonaws:aws-java-sdk-dynamodb:1.11.124"],[{"location":"/Users/khoinguyen/Documents/Lambda Code/BodyPartItem","type":"PROJECT","hints":{"PROJECT_NAME":"BodyPartItem"}},"com.amazonaws.lambda:demo:1.0.0"]]
+{}
