@@ -1728,3 +1728,37 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY com.amazonaws.eclipse.core 1 0 2017-09-27 00:30:01.814
 !MESSAGE Found valid identity id cache us-east-1:facbf241-945f-400f-b883-4ead0a10ab96
+!SESSION 2017-09-27 00:52:54.413 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/khoinguyen/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/khoinguyen/.eclipse_keyring
+
+!ENTRY org.eclipse.core.net 1 0 2017-09-27 00:53:02.268
+!MESSAGE System property http.nonProxyHosts has been set to local|*.local|169.254/16|*.169.254/16 by an external source. This value will be overwritten using the values from the preferences
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-27 00:53:08.798
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-27 00:53:08.811
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-27 00:53:09.122
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-27 00:53:09.124
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-27 00:53:12.007
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-27 00:53:18.165
+!MESSAGE Monitoring content of /Users/khoinguyen/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-27 00:53:18.264
+!MESSAGE AWS toolkit core plugin initialized after 6258 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-27 00:53:18.277
+!MESSAGE Found valid identity id cache us-east-1:facbf241-945f-400f-b883-4ead0a10ab96
