@@ -1762,3 +1762,34 @@ Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.
 
 !ENTRY com.amazonaws.eclipse.core 1 0 2017-09-27 00:53:18.277
 !MESSAGE Found valid identity id cache us-east-1:facbf241-945f-400f-b883-4ead0a10ab96
+!SESSION 2017-09-27 14:35:38.935 -----------------------------------------------
+eclipse.buildId=4.7.0.I20170612-0950
+java.version=1.8.0_101
+java.vendor=Oracle Corporation
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/khoinguyen/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/khoinguyen/.eclipse_keyring
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-27 14:35:53.504
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-27 14:35:53.515
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-27 14:35:53.956
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2017-09-27 14:35:53.958
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-27 14:36:00.312
+!MESSAGE Starting the AWS toolkit core plugin...
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-27 14:36:02.144
+!MESSAGE Monitoring content of /Users/khoinguyen/.aws/credentials
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-27 14:36:02.260
+!MESSAGE AWS toolkit core plugin initialized after 1950 milliseconds.
+
+!ENTRY com.amazonaws.eclipse.core 1 0 2017-09-27 14:36:02.273
+!MESSAGE Found valid identity id cache us-east-1:facbf241-945f-400f-b883-4ead0a10ab96
