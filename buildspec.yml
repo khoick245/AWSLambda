@@ -6,5 +6,4 @@ phases:
       - aws cloudformation package --template-file samTemplate.yaml --s3-bucket 492b --output-template-file NewSamTemplate.yaml
 artifacts:
   type: zip
-  files:
-    - NewSamTemplate.yaml
+  discard-paths: yes
