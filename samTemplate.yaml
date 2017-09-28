@@ -6,8 +6,8 @@ Resources:
   TimeFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: index.handler
-      Runtime: nodejs6.10
+      Handler: TestAutomationFunctionHandler.java
+      Runtime: java8
       CodeUri: ./
       Events:
         MyTimeApi:
