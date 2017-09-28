@@ -1,3 +1,4 @@
+
 var time = require('time');
 exports.handler = (event, context, callback) => {
     var currentTime = new time.Date();
@@ -7,3 +8,4 @@ exports.handler = (event, context, callback) => {
         body: 'The time in Los Angeles is: ' + currentTime.toString(),
     });
 };
+
