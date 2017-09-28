@@ -1,18 +1,18 @@
 
 AWSTemplateFormatVersion: '2010-09-09'
 Transform: AWS::Serverless-2016-10-31
-Description: Test Lambda with CodePipeline
+Description: Outputs the time
 Resources:
   TimeFunction:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: TestAutomationFunctionHandler.java
-      Runtime: java8
+      Handler: index.handler
+      Runtime: nodejs6.10
       CodeUri: ./
       Events:
         MyTimeApi:
           Type: Api
           Properties:
-            Path: /getbodypart
+            Path: /TimeResource
             Method: GET
 
